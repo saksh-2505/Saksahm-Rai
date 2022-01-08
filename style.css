@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Azeret mono', monospace;
+    color: white; 
+    
+    
+}
+
+.homepage{
+    background-color: darkslategrey;
+    height: 100vh;
+    width: 100vw;
+
+}
+.topbar{
+    
+    width: 98vw;
+    height: 10vh;
+    position: fixed;
+    background-color:rgb(39, 67, 67);
+    display: block;
+    margin: 1vw 1vw 0vw 1vw;
+    font-size: 22px;
+    z-index: 10;
+}
+
+
+.header{
+    display: inline-block;
+    position:absolute ;
+    left: 5vw;
+    top :3.3vh
+    
+}
+#myname{
+    display: inline-block;
+    position:absolute ;
+    left: 5vw;
+    top :3.3vh;
+    font-size: 25px;
+    
+    
+}
+#about_me{
+    display: inline-block;
+    position:absolute ;
+    left: 29.5vw;
+    top :3.3vh;
+    
+}
+#projects{
+    display: inline-block;
+    position:absolute ;
+    left: 54vw;
+    top :3.3vh;
+    
+}
+#socials{
+    display: inline-block;
+    position:absolute ;
+    left: 78.5vw;
+    top :3.3vh;
+    
+}
+.content{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    font-size: 3rem;
+}
+.buttons{
+    position: absolute;
+    display: flex;
+    top: 60vh;
+    left: 45vw;
+    ;
+}
+.btn_1{
+    width: 180px;
+    height: 55px;
+    background-color:rgb(39, 67, 67);
+    transition: ease-out 0.5s;
+    outline-width: 5;
+    border-radius: 10px;
+    border: none;
+}
+.btn_1:hover{
+    box-shadow: inset 15em 0em rgb(7, 233, 90);
+}
+.links{
+    text-decoration: none;
+}
+
+/*---------------------------------------------------ABOUT ME-------------------------------------------------------*/
+.me{
+    position: absolute;
+    display: flex;
+    top: 30vh;
+    left: 36vw;
+    color: black; 
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+ }
+ .text1{
+    position: relative;
+    display: block;
+    top: 40vh;
+    left: 18vw;
+    align-items: center;
+    justify-items: center;
+    /* background-color: pink; */
+    max-width: 60vw;
+    font-size: 1.8rem;
+    flex-wrap: wrap;
+    text-align: justify;
+ }
+
+ #hope_you_enjoy{
+     text-align: center;
+     font-size: 2rem;
+ }
+ /*----------------------------------projects-----------------------------------------*/
+
+/*------------------------------------SOCAILS-----------------------------------------*/
+
+.images{
+    position: absolute;
+    display: flex;
+    top: 45vh;
+    left: 20vw;
+    background-color: powderblue;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    width: 60vw;
+    background-color:darkslategrey;
+    
+    
+    
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.lists{
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
